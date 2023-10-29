@@ -89,9 +89,7 @@ persist.vendor.qcom.bluetooth.scram.enabled=true
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=false
 
 # Camera
-camera.aux.packagelist=com.android.camera
 camera.disable_zsl_mode=1
-vendor.camera.aux.packagelist=com.android.camera
 
 # Charger
 ro.charger.enable_suspend=true

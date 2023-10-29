@@ -95,6 +95,11 @@ QCOM_BT_USE_BTNV := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 USE_CAMERA_STUB := false
 
+SOONG_CONFIG_NAMESPACES += samsungCameraVars
+SOONG_CONFIG_samsungCameraVars += extra_ids
+# ID=50 ultrawide, ID=52 depthcam
+SOONG_CONFIG_samsungCameraVars_extra_ids := 50,52
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
