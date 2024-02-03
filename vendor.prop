@@ -158,6 +158,10 @@ persist.debug.coresight.config=stm-events
 # fastbootd
 ro.fastbootd.available=true
 
+# Fingerprint
+ro.vendor.fingerprint.request_touch_event=true
+ro.vendor.fingerprint.type=udfps_optical
+
 # FM
 vendor.hw.fm.init=0
 
