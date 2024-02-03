@@ -100,6 +100,8 @@ SOONG_CONFIG_samsungCameraVars += extra_ids
 # ID=50 ultrawide, ID=52 depthcam
 SOONG_CONFIG_samsungCameraVars_extra_ids := 50,52
 
+$(call soong_config_set,samsungCameraVars,needs_sec_reserved_field,true)
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
