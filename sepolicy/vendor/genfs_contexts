@@ -39,7 +39,6 @@ genfscon sysfs /devices/virtual/sec/sec-pa-thermistor/                          
 genfscon sysfs /devices/virtual/sec/sec-wf-thermistor/                                             u:object_r:sysfs_thermal:s0
 genfscon sysfs /devices/virtual/sec/sec-ap-thermistor/                                             u:object_r:sysfs_thermal:s0
 
-# TODO: Clean these up.
 genfscon sysfs /devices/virtual/diag/diag/wakeup4                                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd/wakeup37                                       u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd-secure/wakeup38                                u:object_r:sysfs_wakeup:s0
