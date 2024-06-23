@@ -397,9 +397,11 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.2.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
     libjson \
+    libnetutils.vendor:64 \
     librmnetctl \
     libxml2 \
     librilutils \
+    libsqlite.vendor:64 \
     secril_config_svc \
     libprotobuf-cpp-full \
     libcutils_shim.vendor
