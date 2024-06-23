@@ -140,6 +140,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.cameraservice.device@2.0.vendor \
     android.frameworks.cameraservice.service@2.1.vendor \
     android.frameworks.cameraservice.service@2.0.vendor \
+    libcamera_metadata.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor
 
 # CAS
@@ -161,6 +162,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.sm6150 \
     libdisplayconfig.qti \
     libqdMetaData \
+    libion \
+    libion.vendor \
     libtinyxml \
     libtinyxml2 \
     libvulkan \
@@ -337,6 +340,12 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
 # QCOM
+PRODUCT_PACKAGES += \
+    libcurl.vendor:64 \
+    libjsoncpp.vendor:64 \
+    libpng.vendor:32 \
+    libsysutils.vendor:64 \
+
 PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/configs/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     $(COMMON_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
