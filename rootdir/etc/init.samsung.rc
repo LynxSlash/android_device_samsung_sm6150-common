@@ -337,7 +337,7 @@ on boot
     chown system system /sys/class/camera/front/front_tof_freq
 
     #Camera Flash
-    chown system system /sys/class/camera/flash/rear_flash
+    chown system camera /sys/class/camera/flash/rear_flash
 
     # Camera::Ois
     chown system system /sys/class/camera/ois/selftest
