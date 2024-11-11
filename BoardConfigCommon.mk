@@ -17,8 +17,6 @@
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-BOARD_VENDOR := samsung
-
 COMMON_PATH := device/samsung/sm6150-common
 
 # Architecture
