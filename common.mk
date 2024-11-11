@@ -79,6 +79,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# QTI components
+TARGET_BOARD_PLATFORM := sm6150
+TARGET_COMMON_QTI_COMPONENTS := \
+    display \
+    perf
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.service \
