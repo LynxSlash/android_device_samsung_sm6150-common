@@ -50,7 +50,13 @@ function blob_fixup() {
         vendor/lib64/libskeymaster4device.so | vendor/lib64/hw/gatekeeper.mdfpp.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
             ;;
-    esac
+
+        vendor/lib/libwvhidl.so)
+            [ "$2" = "" ] && return 0
+            "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v33.so" "${2}"
+           ;;
+ 
+   esac
 }
 
 # Default to sanitizing the vendor folder before extraction
